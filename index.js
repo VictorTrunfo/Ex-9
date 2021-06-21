@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT
 const dados = require('./dados.json')
 
 app.listen(PORT, function () {
