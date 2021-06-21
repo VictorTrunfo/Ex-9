@@ -9,6 +9,8 @@
   "author": "Victor Trunfo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node" : "14.17.1",
+    "npm" : "6.14.13"
   }
 }
