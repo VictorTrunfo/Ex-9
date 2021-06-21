@@ -3,6 +3,9 @@ const app = express()
 const PORT = process.env.PORT || 8080
 const dados = require('./dados.json')
 
+app.listen(PORT, function () {
+    console.log('Listening');
+})  
 app.get('/api/personagem', function(req, res){
     const personagem = {
         "nome": dados.nomes[Math.floor(Math.random() * dados.nomes.length)],
