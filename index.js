@@ -22,6 +22,3 @@ app.get('/api/personagem', function(req, res){
         res.json(personagem)
 })
 
-app.listen(PORT, function(){
-    console.log("Servidor iniciado")
-})
