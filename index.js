@@ -13,6 +13,13 @@ app.get('/api/personagem', function(req, res){
     }
     res.json(personagem)
 })
+    app.get('/api/info', function(req, res){
+        const personagem = {
+            "nome": "Victor Trunfo",
+            "disciplina" : "PPW II"
+        }
+        res.json(personagem)
+})
 
 app.listen(PORT, function(){
     console.log("Servidor iniciado")
